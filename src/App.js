@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Counter from './Excercise1/Counter';
+import XYPosition from './Excercise2/XYPosition';
+import Gif from './Excercise3/Gif';
+import RoboHash from './Excercise4/RoboHash';
+import UserProfile from './Excercise5/UserProfile';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Counter />
+      <XYPosition />
+      <Gif />
+      {/* <RoboHash /> */}
+      <UserProfile />
     </div>
   );
 }
