@@ -16,7 +16,7 @@ function XYPosition() {
     };
   });
   return (
-    <div className={`square ${xPosition < 750 ? 'red' : 'blue'}`}>
+    <div className={`square ${xPosition < window.innerWidth / 2 ? 'blue' : 'tomato'}`}>
       <p>
         I'm now on X: {xPosition} and Y: {yPosition}
       </p>
