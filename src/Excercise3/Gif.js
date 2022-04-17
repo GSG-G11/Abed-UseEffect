@@ -31,7 +31,6 @@ function Gif() {
   }, [search]);
   return (
     <div>
-      <pre>{process.env.REACT_APP_KEY}</pre>
       <input type="text" name="search" value={search} onChange={changeHandler} />
       <div>
         {gifs.length > 0 &&
